@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/ckaqxu/surge/newfile/sub_script4.conf
 
 [eval_local]
 // custom local...
-
+http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=eval_script.js
 
 `
 
