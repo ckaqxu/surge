@@ -31,7 +31,8 @@ const __conf = String.raw`
 
 [eval_remote]
 // custom remote...
-https://raw.githubusercontent.com/yichahucha/surge/master/sub_eval.conf
+// https://raw.githubusercontent.com/yichahucha/surge/master/sub_eval.conf
+https://raw.githubusercontent.com/ckaqxu/surge/newfile/sub_script4.conf
 
 
 [eval_local]
