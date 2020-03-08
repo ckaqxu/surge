@@ -32,13 +32,14 @@ const __conf = String.raw`
 [eval_remote]
 // custom remote...
 
-https://raw.githubusercontent.com/yichahucha/surge/master/sub_eval.conf
+// https://raw.githubusercontent.com/yichahucha/surge/master/sub_eval.conf
+https://raw.githubusercontent.com/ckaqxu/surge/ckaqxu-sub/sub_script4.conf
 
 
 [eval_local]
 // custom local...
 
-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) eval https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+// response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) eval https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
 
 `
