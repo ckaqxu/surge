@@ -3,7 +3,8 @@ const __conf = String.raw`
 
 [Remote]
 // custom remote...
-https://raw.githubusercontent.com/yichahucha/surge/master/sub_script.conf
+// https://raw.githubusercontent.com/yichahucha/surge/master/sub_script.conf
+https://raw.githubusercontent.com/ckaqxu/surge/upload_github/sub_conf
 
 
 [Local]
