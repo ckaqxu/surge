@@ -148,7 +148,7 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/photos\.a
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$),script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get,script-path=eval_script.js
 
