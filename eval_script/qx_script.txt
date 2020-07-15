@@ -318,7 +318,7 @@ http://user.shywck.com/user/userinfo url script-response-body eval_script.js
 
 ^https://8.8.8.8/api url script-request-body eval_script.js
 
-^https://8.8.8.8/(home|sub|my|app|log\/) url script-response-body eval_script.js
+^https://8.8.8.8/(home|sub|my|app|log)($|\/) url script-response-body eval_script.js
 
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body eval_script.js
 
